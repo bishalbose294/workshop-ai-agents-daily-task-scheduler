@@ -5,10 +5,11 @@ Reason -> Act (tool call) -> Observe (tool result) -> Repeat -> Final Answer
 
 import os
 import json
-from tools_schema import TOOLS
-from tool_executor import execute_tool
+from src.tools_schema import TOOLS
+from src.tool_executor import execute_tool
 from dotenv import load_dotenv
 from openrouter import OpenRouter
+from colorama import Fore
 
 load_dotenv()
 
@@ -33,7 +34,8 @@ You will then use that result to reason and produce the final answer.
 </tool_result>
 
 Rules:
-1. Always fetch calendar events, weather, and pending tasks before building a plan.
+1. Always understand what to fetch which function to call and accordingly.
+ Call the calendar events, weather, and pending tasks before building a plan.
 2. Fixed calendar events are non-negotiable — schedule tasks AROUND them.
 3. Use weather data to flag any outdoor/commute risk (e.g., heavy rain).
 4. Prioritize high-priority tasks with earlier deadlines first, fitting them into free
@@ -43,6 +45,8 @@ Rules:
 6. After gathering all needed data, stop calling tools and give the final schedule
    as plain text inside the final_answer field — do not call tools again once you
    have enough information.
+7. If the user plans to stay at home then we do not need any data for weather hence you dont need to call
+  weather function.
 
 OUTPUT CONTRACT — STRICT, NON-NEGOTIABLE:
 - Your entire response MUST be a single valid JSON object. Nothing before it, nothing
@@ -93,18 +97,15 @@ class DailyPlannerAgent:
 
     def run(self, user_request: str) -> str:
         self.messages.append({"role": "user", "content": user_request})
-        # print(self.messages)
 
         for iteration in range(1, MAX_ITERATIONS + 1):
-            print(f"\n--- Agent Iteration {iteration} ---")
+            print(Fore.LIGHTGREEN_EX +f"\n--- Agent Iteration {iteration} ---")
 
             response = self.client.chat.send(
                 model=os.getenv("MODEL", ""),
                 max_completion_tokens=1500,
                 messages=self.messages
             )
-
-            print(f"LLM response: {response.choices[0].message.content}")
 
             # Append LLM's response (may contain text + tool_use blocks)
             self.messages.append({"role": "assistant", "content": response.choices[0].message.content})
@@ -115,24 +116,24 @@ class DailyPlannerAgent:
                 for tool in tool_use:
                     tool_name = tool.get("name")
                     tool_input = tool.get("input", {})
-                    print(f"Calling tool: {tool_name} with input: {tool_input}")
+                    print(Fore.LIGHTGREEN_EX +f"Calling tool: {tool_name} with input: {tool_input}")
 
                     # Execute the tool and get the result
                     tool_result = execute_tool(tool_name, tool_input)
-                    print(f"Tool result: {tool_result}")
+                    print(Fore.LIGHTGREEN_EX +f"Tool result: {tool_result}")
 
                     # Append the tool result to the messages for the next iteration
                     self.messages.append({"role": "system", "content": f"<tool_result>{tool_name}:{json.dumps(tool_result)}</tool_result>"})
+                    print("")
             elif response_dict.get("stop_reason") == "final_answer":
                 final_answer = response_dict.get("final_answer", "")
-                print(f"Final answer received: {final_answer}")
                 return final_answer
 
         return "Agent reached maximum iterations without a final answer. Check tool logic."
 
 if __name__ == "__main__":
     agent = DailyPlannerAgent()
-    user_query = "Plan my day for 2026-07-16. Fit in my pending tasks around my meetings, and account for the weather."
+    user_query = "Plan my day for 2026-07-16 I will mostly be staying at home I also dont want to do any tasks hence only consider meetings for today."
     final_schedule = agent.run(user_query)
-    print("\n--- Final Schedule ---")
+    print("\n--- Final Schedule ---\n")
     print(final_schedule)

@@ -3,7 +3,7 @@ Dispatch layer: maps a tool name requested by LLM to the actual Python function.
 This is the ONLY place where LLM output touches real code execution — validate here.
 """
 
-from data_layer import fetch_calendar_events, fetch_weather, fetch_pending_tasks
+from src.data_layer import fetch_calendar_events, fetch_weather, fetch_pending_tasks
 
 TOOL_MAP = {
     "get_calendar_events": lambda inputs: fetch_calendar_events(inputs["date"]),
