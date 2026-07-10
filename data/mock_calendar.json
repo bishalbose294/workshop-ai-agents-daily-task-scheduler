@@ -1,0 +1,566 @@
+{
+    "2026-07-15": [
+        {
+            "title": "Sprint Planning",
+            "start": "09:30",
+            "end": "10:30",
+            "location": "Conference Room A"
+        },
+        {
+            "title": "Client Standup Call",
+            "start": "10:45",
+            "end": "11:15",
+            "location": "Zoom"
+        },
+        {
+            "title": "Team All-Hands",
+            "start": "12:45",
+            "end": "13:30",
+            "location": "Auditorium"
+        },
+        {
+            "title": "Budget Review Meeting",
+            "start": "13:45",
+            "end": "14:45",
+            "location": "Finance Office"
+        },
+        {
+            "title": "Team Dinner",
+            "start": "16:15",
+            "end": "17:45",
+            "location": "Bandra, Mumbai"
+        }
+    ],
+    "2026-07-16": [
+        {
+            "title": "Design Review",
+            "start": "09:30",
+            "end": "10:30",
+            "location": "Conference Room B"
+        },
+        {
+            "title": "Client Standup Call",
+            "start": "12:00",
+            "end": "12:30",
+            "location": "Zoom"
+        },
+        {
+            "title": "1:1 with Manager",
+            "start": "14:00",
+            "end": "14:30",
+            "location": "Zoom"
+        },
+        {
+            "title": "Product Demo",
+            "start": "14:45",
+            "end": "15:30",
+            "location": "Conference Room C"
+        }
+    ],
+    "2026-07-17": [
+        {
+            "title": "Product Demo",
+            "start": "10:00",
+            "end": "10:45",
+            "location": "Conference Room C"
+        },
+        {
+            "title": "Doctor Visit",
+            "start": "12:15",
+            "end": "12:55",
+            "location": "Lilavati Hospital"
+        },
+        {
+            "title": "Interview Panel",
+            "start": "13:40",
+            "end": "14:25",
+            "location": "Zoom"
+        },
+        {
+            "title": "Budget Review Meeting",
+            "start": "14:40",
+            "end": "15:40",
+            "location": "Finance Office"
+        }
+    ],
+    "2026-07-18": [
+        {
+            "title": "Interview Panel",
+            "start": "09:45",
+            "end": "10:30",
+            "location": "Zoom"
+        }
+    ],
+    "2026-07-19": [
+        {
+            "title": "Family Brunch",
+            "start": "11:00",
+            "end": "12:30",
+            "location": "Bandra, Mumbai"
+        }
+    ],
+    "2026-07-20": [
+        {
+            "title": "1:1 with Manager",
+            "start": "09:15",
+            "end": "09:45",
+            "location": "Zoom"
+        },
+        {
+            "title": "Architecture Discussion",
+            "start": "10:30",
+            "end": "11:30",
+            "location": "Conference Room B"
+        }
+    ],
+    "2026-07-21": [
+        {
+            "title": "Parent-Teacher Meeting",
+            "start": "10:00",
+            "end": "10:30",
+            "location": "Kids School, Thane"
+        },
+        {
+            "title": "Team All-Hands",
+            "start": "12:00",
+            "end": "12:45",
+            "location": "Auditorium"
+        },
+        {
+            "title": "Design Review",
+            "start": "13:00",
+            "end": "14:00",
+            "location": "Conference Room B"
+        }
+    ],
+    "2026-07-22": [
+        {
+            "title": "1:1 with Manager",
+            "start": "10:30",
+            "end": "11:00",
+            "location": "Zoom"
+        },
+        {
+            "title": "Doctor Visit",
+            "start": "11:30",
+            "end": "12:10",
+            "location": "Lilavati Hospital"
+        },
+        {
+            "title": "Code Review Session",
+            "start": "12:25",
+            "end": "12:55",
+            "location": "Zoom"
+        },
+        {
+            "title": "Cross-Team Sync",
+            "start": "13:10",
+            "end": "13:40",
+            "location": "Zoom"
+        }
+    ],
+    "2026-07-23": [
+        {
+            "title": "Budget Review Meeting",
+            "start": "10:00",
+            "end": "11:00",
+            "location": "Finance Office"
+        },
+        {
+            "title": "Code Review Session",
+            "start": "11:45",
+            "end": "12:15",
+            "location": "Zoom"
+        },
+        {
+            "title": "1:1 with Manager",
+            "start": "13:15",
+            "end": "13:45",
+            "location": "Zoom"
+        },
+        {
+            "title": "Parent-Teacher Meeting",
+            "start": "14:30",
+            "end": "15:00",
+            "location": "Kids School, Thane"
+        },
+        {
+            "title": "Sprint Planning",
+            "start": "15:30",
+            "end": "16:30",
+            "location": "Conference Room A"
+        }
+    ],
+    "2026-07-24": [
+        {
+            "title": "Cross-Team Sync",
+            "start": "09:15",
+            "end": "09:45",
+            "location": "Zoom"
+        },
+        {
+            "title": "Product Demo",
+            "start": "11:15",
+            "end": "12:00",
+            "location": "Conference Room C"
+        },
+        {
+            "title": "Team All-Hands",
+            "start": "12:30",
+            "end": "13:15",
+            "location": "Auditorium"
+        }
+    ],
+    "2026-07-25": [
+        {
+            "title": "Vendor Sync Call",
+            "start": "10:00",
+            "end": "10:30",
+            "location": "Google Meet"
+        }
+    ],
+    "2026-07-26": [],
+    "2026-07-27": [
+        {
+            "title": "Doctor Visit",
+            "start": "09:15",
+            "end": "09:55",
+            "location": "Lilavati Hospital"
+        },
+        {
+            "title": "Budget Review Meeting",
+            "start": "10:40",
+            "end": "11:40",
+            "location": "Finance Office"
+        },
+        {
+            "title": "HR Policy Briefing",
+            "start": "12:40",
+            "end": "13:10",
+            "location": "HR Office"
+        },
+        {
+            "title": "Design Review",
+            "start": "13:55",
+            "end": "14:55",
+            "location": "Conference Room B"
+        },
+        {
+            "title": "Gym Session",
+            "start": "15:10",
+            "end": "16:10",
+            "location": "Powerhouse Gym, Thane"
+        }
+    ],
+    "2026-07-28": [
+        {
+            "title": "Gym Session",
+            "start": "10:00",
+            "end": "11:00",
+            "location": "Powerhouse Gym, Thane"
+        },
+        {
+            "title": "HR Policy Briefing",
+            "start": "12:00",
+            "end": "12:30",
+            "location": "HR Office"
+        },
+        {
+            "title": "Product Demo",
+            "start": "13:30",
+            "end": "14:15",
+            "location": "Conference Room C"
+        }
+    ],
+    "2026-07-29": [
+        {
+            "title": "Team All-Hands",
+            "start": "10:30",
+            "end": "11:15",
+            "location": "Auditorium"
+        },
+        {
+            "title": "Sprint Retrospective",
+            "start": "12:45",
+            "end": "13:30",
+            "location": "Conference Room A"
+        },
+        {
+            "title": "Budget Review Meeting",
+            "start": "14:15",
+            "end": "15:15",
+            "location": "Finance Office"
+        }
+    ],
+    "2026-07-30": [
+        {
+            "title": "Gym Session",
+            "start": "09:30",
+            "end": "10:30",
+            "location": "Powerhouse Gym, Thane"
+        },
+        {
+            "title": "Interview Panel",
+            "start": "12:00",
+            "end": "12:45",
+            "location": "Zoom"
+        },
+        {
+            "title": "Architecture Discussion",
+            "start": "13:45",
+            "end": "14:45",
+            "location": "Conference Room B"
+        },
+        {
+            "title": "Cross-Team Sync",
+            "start": "15:00",
+            "end": "15:30",
+            "location": "Zoom"
+        },
+        {
+            "title": "Budget Review Meeting",
+            "start": "15:45",
+            "end": "16:45",
+            "location": "Finance Office"
+        }
+    ],
+    "2026-07-31": [
+        {
+            "title": "Sprint Retrospective",
+            "start": "10:00",
+            "end": "10:45",
+            "location": "Conference Room A"
+        },
+        {
+            "title": "Vendor Sync Call",
+            "start": "12:15",
+            "end": "12:45",
+            "location": "Google Meet"
+        }
+    ],
+    "2026-08-01": [],
+    "2026-08-02": [],
+    "2026-08-03": [
+        {
+            "title": "Dentist Appointment",
+            "start": "09:15",
+            "end": "10:00",
+            "location": "Andheri Dental Clinic"
+        },
+        {
+            "title": "Team Dinner",
+            "start": "11:30",
+            "end": "13:00",
+            "location": "Bandra, Mumbai"
+        },
+        {
+            "title": "Team All-Hands",
+            "start": "13:45",
+            "end": "14:30",
+            "location": "Auditorium"
+        },
+        {
+            "title": "Client Standup Call",
+            "start": "15:15",
+            "end": "15:45",
+            "location": "Zoom"
+        }
+    ],
+    "2026-08-04": [
+        {
+            "title": "Code Review Session",
+            "start": "09:30",
+            "end": "10:00",
+            "location": "Zoom"
+        },
+        {
+            "title": "Interview Panel",
+            "start": "11:00",
+            "end": "11:45",
+            "location": "Zoom"
+        }
+    ],
+    "2026-08-05": [
+        {
+            "title": "Team All-Hands",
+            "start": "09:30",
+            "end": "10:15",
+            "location": "Auditorium"
+        },
+        {
+            "title": "Team Dinner",
+            "start": "11:45",
+            "end": "13:15",
+            "location": "Bandra, Mumbai"
+        }
+    ],
+    "2026-08-06": [
+        {
+            "title": "Code Review Session",
+            "start": "10:30",
+            "end": "11:00",
+            "location": "Zoom"
+        },
+        {
+            "title": "Team Dinner",
+            "start": "11:30",
+            "end": "13:00",
+            "location": "Bandra, Mumbai"
+        }
+    ],
+    "2026-08-07": [
+        {
+            "title": "Cross-Team Sync",
+            "start": "10:30",
+            "end": "11:00",
+            "location": "Zoom"
+        },
+        {
+            "title": "Vendor Sync Call",
+            "start": "11:15",
+            "end": "11:45",
+            "location": "Google Meet"
+        },
+        {
+            "title": "Doctor Visit",
+            "start": "13:15",
+            "end": "13:55",
+            "location": "Lilavati Hospital"
+        }
+    ],
+    "2026-08-08": [
+        {
+            "title": "Team Lunch",
+            "start": "09:15",
+            "end": "10:15",
+            "location": "Bandra, Mumbai"
+        }
+    ],
+    "2026-08-09": [
+        {
+            "title": "Gym Session",
+            "start": "11:00",
+            "end": "12:00",
+            "location": "Powerhouse Gym, Thane"
+        }
+    ],
+    "2026-08-10": [
+        {
+            "title": "Design Review",
+            "start": "09:15",
+            "end": "10:15",
+            "location": "Conference Room B"
+        },
+        {
+            "title": "Budget Review Meeting",
+            "start": "11:15",
+            "end": "12:15",
+            "location": "Finance Office"
+        },
+        {
+            "title": "1:1 with Manager",
+            "start": "12:30",
+            "end": "13:00",
+            "location": "Zoom"
+        }
+    ],
+    "2026-08-11": [
+        {
+            "title": "Sprint Retrospective",
+            "start": "09:45",
+            "end": "10:30",
+            "location": "Conference Room A"
+        },
+        {
+            "title": "Parent-Teacher Meeting",
+            "start": "12:00",
+            "end": "12:30",
+            "location": "Kids School, Thane"
+        },
+        {
+            "title": "Team Lunch",
+            "start": "14:00",
+            "end": "15:00",
+            "location": "Bandra, Mumbai"
+        },
+        {
+            "title": "Vendor Sync Call",
+            "start": "16:00",
+            "end": "16:30",
+            "location": "Google Meet"
+        }
+    ],
+    "2026-08-12": [
+        {
+            "title": "Doctor Visit",
+            "start": "10:00",
+            "end": "10:40",
+            "location": "Lilavati Hospital"
+        },
+        {
+            "title": "Product Demo",
+            "start": "11:25",
+            "end": "12:10",
+            "location": "Conference Room C"
+        },
+        {
+            "title": "Code Review Session",
+            "start": "13:10",
+            "end": "13:40",
+            "location": "Zoom"
+        }
+    ],
+    "2026-08-13": [
+        {
+            "title": "Dentist Appointment",
+            "start": "09:15",
+            "end": "10:00",
+            "location": "Andheri Dental Clinic"
+        },
+        {
+            "title": "Sprint Planning",
+            "start": "10:45",
+            "end": "11:45",
+            "location": "Conference Room A"
+        },
+        {
+            "title": "Budget Review Meeting",
+            "start": "12:00",
+            "end": "13:00",
+            "location": "Finance Office"
+        },
+        {
+            "title": "Doctor Visit",
+            "start": "14:30",
+            "end": "15:10",
+            "location": "Lilavati Hospital"
+        }
+    ],
+    "2026-08-14": [
+        {
+            "title": "Budget Review Meeting",
+            "start": "09:15",
+            "end": "10:15",
+            "location": "Finance Office"
+        },
+        {
+            "title": "Gym Session",
+            "start": "10:30",
+            "end": "11:30",
+            "location": "Powerhouse Gym, Thane"
+        },
+        {
+            "title": "Parent-Teacher Meeting",
+            "start": "12:00",
+            "end": "12:30",
+            "location": "Kids School, Thane"
+        },
+        {
+            "title": "Client Standup Call",
+            "start": "12:45",
+            "end": "13:15",
+            "location": "Zoom"
+        }
+    ],
+    "2026-08-15": []
+}
